@@ -1,13 +1,26 @@
 * {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
-.home_link {
+.main_title {
+    background-color: #ffd9b3;
+}
+
+.home_link,
+.main_title {
     border: 1px solid black;
     padding: 10px;
 }
 
-.main_container {
+.home_box {
+    margin-bottom: 21px;
+}
+
+.main_container,
+.home_box,
+.title_card,
+.card > h2,
+.card > p {
     text-align: center;
 }
 
@@ -19,8 +32,10 @@
     list-style-type: none;
 }
 
-.main_li {
+.main_li,
+.card {
     padding: 5px;
+    border-radius: 21px;
 }
 
 .main_img {
@@ -37,6 +52,9 @@ img {
     height: auto;
 }
 
-.title_card {
-    text-align: center;
+.card {
+    border: 1px solid black;
+    margin: 21px;
+    background-color: #ffcccc;
 }
+
