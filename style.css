@@ -2,6 +2,11 @@
     font-family: Arial, sans-serif;
 }
 
+.home_link {
+    border: 1px solid black;
+    padding: 10px;
+}
+
 .main_container {
     text-align: center;
 }
@@ -30,4 +35,8 @@ img {
     border-radius: 90px;
     width: 50%;
     height: auto;
+}
+
+.title_card {
+    text-align: center;
 }
