@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
 }
 
-body {
+.main_container {
     text-align: center;
 }
 
@@ -18,7 +18,16 @@ body {
     padding: 5px;
 }
 
+.main_img {
+    border: 1px solid black;
+    border-radius: 90px;
+    width: 90%;
+    height: auto;
+}
+
 img {
     border: 1px solid black;
     border-radius: 90px;
+    width: 50%;
+    height: auto;
 }
